@@ -4,6 +4,8 @@
  * selection_sort - an array of intergers to be sorted using selection sorting
  * @array: list of integers to be sorted
  * @size: size of the array
+ *
+ * Return: void
  */
 
 void selection_sort(int *array, size_t size)
