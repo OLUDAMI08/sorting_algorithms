@@ -12,11 +12,11 @@
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
-	int temp, tracker;
+	int temp;
 
 	for (i = 0; i < size; i++)
 	{
-		int traker = 0;
+		int tracker = 0;
 
 		for (j = 0; j < (size - i - 1); j++)
 		{
